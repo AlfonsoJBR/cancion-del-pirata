@@ -1,0 +1,26 @@
+/* Hoja de estilo de la canción del pirata de Espronceda */
+/* puedo cambiar el tamaño de la trama y el efecto repetición */
+/* por defecto se repiten en horizontal y vertical */
+
+     @font-face {
+          font-family: caligrafia;
+          src: url("../fonts/BLKCHCRY.TTF");
+     }
+       body {background-image: url("../images/fondo.jpg"); 
+            background-repeat: repeat-x;
+            background-size: 50%;
+            margin:0;
+            padding:20px; 
+            font-family: caligrafia;}
+
+
+       #container {background-color: rgb(250, 246, 209);
+                    width:80%;
+                    margin:auto;/*esto centra el container*/
+                    height: 100vh;/* esto es el 100 del alto de la pantalla */
+                    text-align: center; /*esto centra el texto en el container */
+                    border: 3px solid black;     }
+                    
+                    /* aunque se puede regular alto y ancho en una caja css , se suele regular unicamente el
+                    ancho, y dejar que se produzcan scrolls en vertical */
+                    
